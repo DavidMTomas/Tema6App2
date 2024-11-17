@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment dinamicos"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/btnAzul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Btn  AZUL"/>
+
+        <Button
+            android:id="@+id/btnVerde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Btn  VERDE"
+            android:layout_marginHorizontal="10dp"/>
+
+        <Button
+            android:id="@+id/btnRojo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Btn  ROJO"/>
+    </LinearLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fgContenedor"/>
+
+</LinearLayout>
