@@ -27,20 +27,30 @@
             android:id="@+id/btnAzul"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Btn  AZUL"/>
+            android:text="Btn  AZUL"
+            android:layout_weight="2"/>
 
         <Button
             android:id="@+id/btnVerde"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Btn  VERDE"
-            android:layout_marginHorizontal="10dp"/>
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="2"/>
 
         <Button
             android:id="@+id/btnRojo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Btn  ROJO"/>
+            android:text="Btn  ROJO"
+            android:layout_weight="2"/>
+
+        <Button
+            android:id="@+id/btnNegro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Btn  Negro"
+            android:layout_weight="2"/>
     </LinearLayout>
 
     <androidx.fragment.app.FragmentContainerView
